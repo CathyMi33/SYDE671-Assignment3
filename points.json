@@ -1,0 +1,863 @@
+{
+  "annotation_width": 768,
+  "annotation_height": 1024,
+  "annotation_provenance": "Coordinates visually selected by the assistant from the supplied photos, not user mouse clicks and not feature-matcher output. Review in the numbered plots or replace using select_points.py. Points are in the 768x1024 preview coordinate frame.",
+  "sets": [
+    {
+      "name": "01_bulletin_board",
+      "images": [
+        "IMG_1483.jpeg",
+        "IMG_1485.jpeg",
+        "IMG_1487.jpeg"
+      ],
+      "reference": "IMG_1485.jpeg"
+    },
+    {
+      "name": "02_brick_wall",
+      "images": [
+        "IMG_1511.JPG",
+        "IMG_1512.JPG",
+        "IMG_1513.JPG"
+      ],
+      "reference": "IMG_1512.JPG"
+    },
+    {
+      "name": "03_atrium",
+      "images": [
+        "IMG_1497.JPG",
+        "IMG_1499.JPG",
+        "IMG_1501.JPG"
+      ],
+      "reference": "IMG_1499.JPG"
+    }
+  ],
+  "pairs": [
+    {
+      "source": "IMG_1483.jpeg",
+      "reference": "IMG_1485.jpeg",
+      "source_points": [
+        [
+          270,
+          424
+        ],
+        [
+          491,
+          389
+        ],
+        [
+          489,
+          580
+        ],
+        [
+          271,
+          545
+        ],
+        [
+          546,
+          428
+        ],
+        [
+          678,
+          415
+        ],
+        [
+          671,
+          605
+        ],
+        [
+          542,
+          587
+        ],
+        [
+          442,
+          403
+        ],
+        [
+          478,
+          398
+        ],
+        [
+          477,
+          464
+        ],
+        [
+          441,
+          466
+        ]
+      ],
+      "reference_points": [
+        [
+          139,
+          431
+        ],
+        [
+          373,
+          408
+        ],
+        [
+          372,
+          591
+        ],
+        [
+          141,
+          567
+        ],
+        [
+          421,
+          447
+        ],
+        [
+          526,
+          440
+        ],
+        [
+          524,
+          604
+        ],
+        [
+          420,
+          594
+        ],
+        [
+          327,
+          417
+        ],
+        [
+          361,
+          414
+        ],
+        [
+          361,
+          479
+        ],
+        [
+          326,
+          480
+        ]
+      ],
+      "point_labels": [
+        "board outer TL",
+        "board outer TR",
+        "board outer BR",
+        "board outer BL",
+        "map outer TL",
+        "map outer TR",
+        "map outer BR",
+        "map outer BL",
+        "ADHD poster TL",
+        "ADHD poster TR",
+        "ADHD poster BR",
+        "ADHD poster BL"
+      ]
+    },
+    {
+      "source": "IMG_1487.jpeg",
+      "reference": "IMG_1485.jpeg",
+      "source_points": [
+        [
+          208,
+          412
+        ],
+        [
+          211,
+          607
+        ],
+        [
+          262,
+          453
+        ],
+        [
+          362,
+          450
+        ],
+        [
+          364,
+          606
+        ],
+        [
+          264,
+          604
+        ],
+        [
+          384,
+          470
+        ],
+        [
+          421,
+          468
+        ],
+        [
+          421,
+          515
+        ],
+        [
+          385,
+          516
+        ],
+        [
+          154,
+          419
+        ],
+        [
+          194,
+          417
+        ],
+        [
+          195,
+          486
+        ],
+        [
+          154,
+          487
+        ]
+      ],
+      "reference_points": [
+        [
+          373,
+          408
+        ],
+        [
+          372,
+          591
+        ],
+        [
+          421,
+          447
+        ],
+        [
+          526,
+          440
+        ],
+        [
+          524,
+          604
+        ],
+        [
+          420,
+          594
+        ],
+        [
+          552,
+          460
+        ],
+        [
+          595,
+          458
+        ],
+        [
+          595,
+          510
+        ],
+        [
+          551,
+          511
+        ],
+        [
+          327,
+          417
+        ],
+        [
+          361,
+          414
+        ],
+        [
+          361,
+          479
+        ],
+        [
+          326,
+          480
+        ]
+      ],
+      "point_labels": [
+        "board outer TR",
+        "board outer BR",
+        "map outer TL",
+        "map outer TR",
+        "map outer BR",
+        "map outer BL",
+        "black notice TL",
+        "black notice TR",
+        "black notice BR",
+        "black notice BL",
+        "ADHD poster TL",
+        "ADHD poster TR",
+        "ADHD poster BR",
+        "ADHD poster BL"
+      ]
+    },
+    {
+      "source": "IMG_1511.JPG",
+      "reference": "IMG_1512.JPG",
+      "source_points": [
+        [
+          446,
+          622
+        ],
+        [
+          466,
+          869
+        ],
+        [
+          398,
+          654
+        ],
+        [
+          400,
+          750
+        ],
+        [
+          228,
+          668
+        ],
+        [
+          230,
+          762
+        ],
+        [
+          310,
+          486
+        ],
+        [
+          348,
+          536
+        ],
+        [
+          175,
+          441
+        ],
+        [
+          202,
+          450
+        ],
+        [
+          189,
+          313
+        ],
+        [
+          327,
+          323
+        ]
+      ],
+      "reference_points": [
+        [
+          407,
+          621
+        ],
+        [
+          431,
+          864
+        ],
+        [
+          364,
+          656
+        ],
+        [
+          368,
+          754
+        ],
+        [
+          184,
+          675
+        ],
+        [
+          186,
+          774
+        ],
+        [
+          272,
+          486
+        ],
+        [
+          311,
+          535
+        ],
+        [
+          128,
+          438
+        ],
+        [
+          155,
+          448
+        ],
+        [
+          141,
+          307
+        ],
+        [
+          290,
+          322
+        ]
+      ],
+      "point_labels": [
+        "right rail near bend",
+        "right rail near foot",
+        "right rail far bend",
+        "right rail far foot",
+        "left inner rail bend",
+        "left inner rail foot",
+        "exit frame TL",
+        "exit frame BR",
+        "first window outer TL",
+        "first window outer TR",
+        "ceiling light left tip",
+        "ceiling light right tip"
+      ]
+    },
+    {
+      "source": "IMG_1513.JPG",
+      "reference": "IMG_1512.JPG",
+      "source_points": [
+        [
+          366,
+          620
+        ],
+        [
+          391,
+          865
+        ],
+        [
+          322,
+          655
+        ],
+        [
+          326,
+          754
+        ],
+        [
+          138,
+          682
+        ],
+        [
+          140,
+          785
+        ],
+        [
+          230,
+          485
+        ],
+        [
+          271,
+          536
+        ],
+        [
+          73,
+          431
+        ],
+        [
+          106,
+          443
+        ],
+        [
+          86,
+          298
+        ],
+        [
+          248,
+          316
+        ]
+      ],
+      "reference_points": [
+        [
+          407,
+          621
+        ],
+        [
+          431,
+          864
+        ],
+        [
+          364,
+          656
+        ],
+        [
+          368,
+          754
+        ],
+        [
+          184,
+          675
+        ],
+        [
+          186,
+          774
+        ],
+        [
+          272,
+          486
+        ],
+        [
+          311,
+          535
+        ],
+        [
+          128,
+          438
+        ],
+        [
+          155,
+          448
+        ],
+        [
+          141,
+          307
+        ],
+        [
+          290,
+          322
+        ]
+      ],
+      "point_labels": [
+        "right rail near bend",
+        "right rail near foot",
+        "right rail far bend",
+        "right rail far foot",
+        "left inner rail bend",
+        "left inner rail foot",
+        "exit frame TL",
+        "exit frame BR",
+        "first window outer TL",
+        "first window outer TR",
+        "ceiling light left tip",
+        "ceiling light right tip"
+      ]
+    },
+    {
+      "source": "IMG_1497.JPG",
+      "reference": "IMG_1499.JPG",
+      "source_points": [
+        [
+          332,
+          440
+        ],
+        [
+          351,
+          455
+        ],
+        [
+          268,
+          585
+        ],
+        [
+          300,
+          608
+        ],
+        [
+          378,
+          596
+        ],
+        [
+          391,
+          554
+        ],
+        [
+          416,
+          560
+        ],
+        [
+          420,
+          458
+        ],
+        [
+          434,
+          569
+        ],
+        [
+          337,
+          396
+        ],
+        [
+          58,
+          530
+        ],
+        [
+          117,
+          526
+        ],
+        [
+          223,
+          373
+        ],
+        [
+          326,
+          346
+        ],
+        [
+          653,
+          302
+        ]
+      ],
+      "reference_points": [
+        [
+          394,
+          439
+        ],
+        [
+          413,
+          454
+        ],
+        [
+          330,
+          582
+        ],
+        [
+          361,
+          604
+        ],
+        [
+          438,
+          595
+        ],
+        [
+          451,
+          555
+        ],
+        [
+          477,
+          560
+        ],
+        [
+          480,
+          458
+        ],
+        [
+          496,
+          573
+        ],
+        [
+          400,
+          397
+        ],
+        [
+          148,
+          524
+        ],
+        [
+          196,
+          522
+        ],
+        [
+          288,
+          375
+        ],
+        [
+          386,
+          347
+        ],
+        [
+          752,
+          286
+        ]
+      ],
+      "point_labels": [
+        "sign TL",
+        "sign BR",
+        "column left base",
+        "column front base",
+        "column right base",
+        "green panel bottom left",
+        "green panel bottom right",
+        "red post top left",
+        "red post foot right",
+        "green beam left tip",
+        "stair left foot",
+        "stair right foot",
+        "balcony lower corner",
+        "wall pipe elbow",
+        "front beam bend"
+      ]
+    },
+    {
+      "source": "IMG_1501.JPG",
+      "reference": "IMG_1499.JPG",
+      "source_points": [
+        [
+          473,
+          442
+        ],
+        [
+          491,
+          457
+        ],
+        [
+          402,
+          584
+        ],
+        [
+          440,
+          608
+        ],
+        [
+          516,
+          601
+        ],
+        [
+          530,
+          565
+        ],
+        [
+          559,
+          568
+        ],
+        [
+          565,
+          459
+        ],
+        [
+          579,
+          581
+        ],
+        [
+          478,
+          400
+        ],
+        [
+          234,
+          522
+        ],
+        [
+          277,
+          521
+        ],
+        [
+          367,
+          380
+        ],
+        [
+          468,
+          350
+        ]
+      ],
+      "reference_points": [
+        [
+          394,
+          439
+        ],
+        [
+          413,
+          454
+        ],
+        [
+          330,
+          582
+        ],
+        [
+          361,
+          604
+        ],
+        [
+          438,
+          595
+        ],
+        [
+          451,
+          555
+        ],
+        [
+          477,
+          560
+        ],
+        [
+          480,
+          458
+        ],
+        [
+          496,
+          573
+        ],
+        [
+          400,
+          397
+        ],
+        [
+          148,
+          524
+        ],
+        [
+          196,
+          522
+        ],
+        [
+          288,
+          375
+        ],
+        [
+          386,
+          347
+        ]
+      ],
+      "point_labels": [
+        "sign TL",
+        "sign BR",
+        "column left base",
+        "column front base",
+        "column right base",
+        "green panel bottom left",
+        "green panel bottom right",
+        "red post top left",
+        "red post foot right",
+        "green beam left tip",
+        "stair left foot",
+        "stair right foot",
+        "balcony lower corner",
+        "wall pipe elbow"
+      ]
+    }
+  ],
+  "rectifications": [
+    {
+      "name": "01_board",
+      "image": "IMG_1483.jpeg",
+      "corners": [
+        [
+          270,
+          424
+        ],
+        [
+          491,
+          389
+        ],
+        [
+          489,
+          580
+        ],
+        [
+          271,
+          545
+        ]
+      ],
+      "output_size": [
+        720,
+        430
+      ],
+      "aspect_note": "Display aspect ratio 720:430 is chosen; physical board dimensions were not measured."
+    },
+    {
+      "name": "02_map",
+      "image": "IMG_1487.jpeg",
+      "corners": [
+        [
+          262,
+          453
+        ],
+        [
+          362,
+          450
+        ],
+        [
+          364,
+          606
+        ],
+        [
+          264,
+          604
+        ]
+      ],
+      "output_size": [
+        360,
+        540
+      ],
+      "aspect_note": "Display aspect ratio 2:3 is chosen; physical frame dimensions were not measured."
+    }
+  ]
+}
